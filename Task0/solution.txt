@@ -1,0 +1,6 @@
+b Zmiana obrazu:
+----------------
+
+'n' key
+global v keeping track of the current image index (put in main)
+function that increments the index and loads the next image from the folder: load_next_image()

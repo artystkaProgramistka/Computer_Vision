@@ -2,10 +2,10 @@ import cv2
 import numpy as np
 
 
-def draw_cross(img, center, size=20, color=(0, 255, 0), thickness=2):
-    # Draw a cross at the specified center point
-    cv2.line(img, (center[0] - size, center[1]), (center[0] + size, center[1]), color, thickness)
-    cv2.line(img, (center[0], center[1] - size), (center[0], center[1] + size), color, thickness)
+    def draw_cross(img, center, size=20, color=(0, 255, 0), thickness=2):
+        # Draw a cross at the specified center point
+        cv2.line(img, (center[0] - size, center[1]), (center[0] + size, center[1]), color, thickness)
+        cv2.line(img, (center[0], center[1] - size), (center[0], center[1] + size), color, thickness)
 
 
 def process_frame(frame):
