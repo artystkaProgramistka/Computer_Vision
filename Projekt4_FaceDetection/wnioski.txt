@@ -1,0 +1,5 @@
+Przyczyny słabych wyników modelu po stronie zbioru danych:
+
+Występują mocno zróżnicowane warunki oświetleniowe i mocno zróżnicowane tła.
+
+Główny bohater występuje w filmie przez prawie cały czas, przez co mało jest próbek z innych klas. To głównie on występuje w zbiorze danych treningowych w zróżnicowanych warunkach tła i oświetlenia i ze zróżnicowaną mimiką twarzy. Z tego powodu inne postacie w trudnych warunkach są często klasyfikowane jako Patryk.

@@ -1,6 +1,7 @@
 import cv2
 
 def match_images(image1, image2, algorithm='SIFT'):
+    # niezbędna konwersja - algorytmy SIFT i ORB działają na obrazach w skali szarości
     gray1 = cv2.cvtColor(image1, cv2.COLOR_BGR2GRAY)
     gray2 = cv2.cvtColor(image2, cv2.COLOR_BGR2GRAY)
 
